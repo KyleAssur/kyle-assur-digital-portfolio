@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Assur - Digital Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2C3E50 0%, #4CAF50 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .profile-info {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 2rem 0;
+        }
+        
+        .nav-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.3s ease;
+        }
+        
+        .nav-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .nav-card h3 {
+            color: #2C3E50;
+            margin-bottom: 1rem;
+        }
+        
+        .project-highlight {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin: 2rem 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kyle Assur</h1>
+            <p>Digital Portfolio | CPUT ICT Applications Development</p>
+            <p>Student Number: 219070091</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile-info">
+            <h2>Welcome to My Digital Portfolio</h2>
+            <p>This portfolio showcases my professional development and work readiness training as part of my ICT Diploma at CPUT.</p>
+        </div>
+
+        <div class="nav-grid">
+            <a href="./business-communication/README.md" class="nav-card">
+                <h3>💼 Business Communication</h3>
+                <p>Professional documents, cover letters, and business correspondence demonstrating effective communication skills.</p>
+            </a>
+
+            <a href="./interview-skills/README.md" class="nav-card">
+                <h3>🎤 Interview Skills</h3>
+                <p>Preparation materials and techniques for job interviews, including common questions and responses.</p>
+            </a>
+
+            <a href="./mock-interview/README.md" class="nav-card">
+                <h3>🎥 Mock Interview</h3>
+                <p>Video recording and detailed reflection on my mock interview performance and learnings.</p>
+            </a>
+
+            <a href="./professional-networking/README.md" class="nav-card">
+                <h3>🌐 Professional Networking</h3>
+                <p>Internship experience, industry connections, and professional relationship building.</p>
+            </a>
+
+            <a href="./workplace-etiquette/README.md" class="nav-card">
+                <h3>⚖️ Workplace Etiquette</h3>
+                <p>Professional conduct, attendance records, and workplace best practices demonstrated during internship.</p>
+            </a>
+        </div>
+
+        <div class="project-highlight">
+            <h2>🚀 Featured Project: StudyBuddy Hub</h2>
+            <p>A comprehensive ed-tech platform designed for South African university students to collaborate and share academic resources.</p>
+            <p><strong>Key Features:</strong> Resource sharing, study groups, Q&A forum, mobile-friendly design</p>
+            <a href="./studybuddy-hub-project/README.md">View Project Details →</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Kyle Assur | 219070091@mycput.ac.za | 060 588 6562</p>
+            <p>CPUT ICT Applications Development | PRP370S Digital Portfolio Assessment</p>
+        </div>
+    </footer>
+</body>
+</html>
