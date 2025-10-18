@@ -18,3 +18,5 @@
 - Professional correspondence
 - Job application techniques
 - Company research and tailoring
+
+[Kyle Assur - Cover letter.docx](https://github.com/user-attachments/files/22983262/Kyle.Assur.-.Cover.letter.docx)
