@@ -74,7 +74,7 @@ My objective was to create a fully-realized business concept and design system f
 - User-centered design methodologies
 - Brand development processes
 
-## 🌟 Most Valuable Experiences
+## Most Valuable Experiences
 
 ### 1. End-to-End Project Development
 Experiencing complete project lifecycle from initial concept through to high-fidelity designs provided invaluable understanding of product development processes.
